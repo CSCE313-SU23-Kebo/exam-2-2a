@@ -1,4 +1,4 @@
-# Performance optimization with threading
+# Exam 2.2.a: Performance optimization with threading
 
 This program approximates the value of pi using the Riemann sum method.
 
