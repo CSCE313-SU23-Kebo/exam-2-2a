@@ -17,7 +17,7 @@ Hint: The single_num_thread has an id argument. This is so that each thread know
 ### Section 2
 Your goal is to parallelize the code given (comment it out when you finish). Reference the `pi_sum_thread` and compare it to the serial code. We deliberately added a `sleep(1)` in both the serial code and the function to simulate a long-running function. Your goal is to make the output time of this section to be about 1 second, like the sample output.
 
-Hint: You do not need to understand the algorithm. Think about parallelizing a loop. The `pi_sum_thread` is not thread-safe, so make sure to add the appropriate synchronization code to make it thread-safe. This also means that the shared variable(s) must be passed by reference and not by value.
+Hint: You do not need to understand the algorithm. Think about parallelizing a loop. The `pi_sum_thread` is not thread-safe, so make sure to add the appropriate synchronization code to make it thread-safe. This also means that the shared variable(s) must be passed by reference, not by value.
 
 ## Sample output
 For two threads, this is a sample output (Ignore the first two lines):
