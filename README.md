@@ -10,7 +10,7 @@ There are two sections of the code that you need to parallelize. The first one i
 
 ## main.cpp
 ### Section 1
-Similar to LE6, you must create a vector of threads, call the thread constructor, and push back nthreads # of threads. Pass in the appropriate arguments to the thread function. Then, join the threads.
+You must create a vector of threads, call the thread constructor, and push back nthreads # of threads. Pass in the appropriate arguments to the thread function. Then, join the threads.
 
 Hint: The single_num_thread has an id argument. This is so that each thread knows what section of the sum array it works on.
 
